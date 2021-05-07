@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const logger = require("morgan");
 const AppRoutes = require("../api/index");
+const { db } = require("./mongoose.js");
 
 const app = express();
 
@@ -30,6 +31,7 @@ app.use(logger("dev"));
 app.use(express.static("public"));
 app.use(express.json({ limit: "10kb" }));
 
+db();
 // load api routes here
 app.use(AppRoutes);
 
