@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const http = require("http");
 
@@ -5,7 +6,7 @@ const bodyParser = require("body-parser");
 // const mongoSanitize = require("express-mongo-sanitize");
 const cors = require("cors");
 const logger = require("morgan");
-const { db } = require("./config/db");
+const { db } = require("./loaders/mongoose.js");
 
 const app = express();
 const server = http.createServer(app);

@@ -1,8 +1,9 @@
+const config = require("../config/index");
 const mongoose = require("mongoose");
 
 const db = async () => {
   try {
-    const dbconnection = await mongoose.connect(process.env.DB_URL, {
+    const dbconnection = await mongoose.connect(config.databaseURL, {
       useNewUrlParser: true,
       useCreateIndex: true,
       useFindAndModify: false,

@@ -1,7 +1,7 @@
 {
   "name": "crudapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "basic crud app",
   "main": "server.js",
   "dependencies": {
     "argon": "^2.0.21",
