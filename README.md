@@ -136,6 +136,8 @@ Response example:
 }
 ```
 
+<br />
+
 ### Get users
 
 `GET https://x-crud-app.herokuapp.com/api/users`
@@ -170,3 +172,51 @@ Response example:
     ]
 }
 ```
+
+<br/>
+
+### Update a user
+
+`PATCH https://x-crud-app.herokuapp.com/api/update/user`
+
+#### Request body key/value pair to create a user
+
+Example:
+<strong>Body</strong> urlencoded
+
+| Key       | Value               | Required |
+| --------- | ------------------- | -------- |
+| email     | johndoe@example.com | Yes      |
+| firstname | John                | No       |
+| lastname  | Doe                 | No       |
+| country   | Nigeria             | No       |
+
+JSON format
+
+```
+{
+    "email": "johndoe@example.com",
+    "firstname": "John",
+    "lastname": "Doe",
+    "country": "Nigeria"
+}
+```
+
+Response example:
+
+```
+{
+    "message": "✅ User data has been updated!",
+    "data": {
+        "user": {
+            "_id": "60965b9e2e30e0366874593e",
+            "name": "John Thebaptist",
+            "email": "johndoe@example.com",
+            "country": "Nigeria",
+            "__v": 0
+        }
+    }
+}
+```
+
+<br/>
