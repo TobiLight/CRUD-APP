@@ -1,6 +1,6 @@
 # CRUD-APP
 
-> A basic crud app using NodeJS & Express
+> A basic crud app using NodeJS & Express. https://x-crud-app.herokuapp.com/api/welcome
 
 ### How to Install on your PC 💻
 
