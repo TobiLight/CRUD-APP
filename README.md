@@ -57,3 +57,25 @@ npm run start
 ### Create a user
 
 `POST https://x-crud-app.herokuapp.com/create/user`
+
+##### Request body key/value pair to create a user
+
+Example:
+
+| Key       | Value               | Required |
+| --------- | ------------------- | -------- |
+| firstname | John                | Yes      |
+| lastname  | Doe                 | Yes      |
+| email     | johndoe@example.com | Yes      |
+| country   | Nigeria             | Yes      |
+
+JSON format
+
+```
+{
+    "firstname": "John",
+    "lastname": "Doe",
+    "email": "johndoe@example.com",
+    "country": "Nigeria"
+}
+```
