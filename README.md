@@ -36,7 +36,7 @@ npm run start
 
 ---
 
-## Application endpoints
+## Application endpoints 🌎
 
 ### HTTP STATUS CODES USED
 
