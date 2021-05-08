@@ -188,7 +188,7 @@ Example:
 | --------- | ------------------- | -------- |
 | email     | johndoe@example.com | Yes      |
 | firstname | John                | No       |
-| lastname  | Doe                 | No       |
+| lastname  | Thebaptist          | No       |
 | country   | Nigeria             | No       |
 
 JSON format
@@ -197,7 +197,7 @@ JSON format
 {
     "email": "johndoe@example.com",
     "firstname": "John",
-    "lastname": "Doe",
+    "lastname": "Thebaptist",
     "country": "Nigeria"
 }
 ```
@@ -216,6 +216,37 @@ Response example:
             "__v": 0
         }
     }
+}
+```
+
+<br/>
+
+### Delete a user
+
+`DELETE https://x-crud-app.herokuapp.com/api/delete/user`
+
+#### Request body key/value pair to create a user
+
+Example:
+<strong>Body</strong> urlencoded
+
+| Key   | Value               | Required |
+| ----- | ------------------- | -------- |
+| email | johndoe@example.com | Yes      |
+
+JSON format
+
+```
+{
+    "email": "johndoe@example.com"
+}
+```
+
+Response example:
+
+```
+{
+    "message": "✅ User deleted!"
 }
 ```
 
