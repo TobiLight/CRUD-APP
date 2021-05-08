@@ -36,7 +36,7 @@ npm run start
 
 ## Application endpoints
 
-### HTTP STATUS CODES
+### HTTP STATUS CODES USED
 
 | Status code | Description           |
 | ----------- | --------------------- |
@@ -45,6 +45,10 @@ npm run start
 | 400         | Bad request           |
 | 404         | Not found             |
 | 500         | Internal server error |
+
+### Request verbs used in application
+
+> GET, POST, PATCH, DELETE
 
 ### Create a user
 
