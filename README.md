@@ -34,6 +34,8 @@ Run the app in production mode using
 npm run start
 ```
 
+---
+
 ## Application endpoints
 
 ### HTTP STATUS CODES USED
@@ -50,7 +52,8 @@ npm run start
 
 > GET, POST, PATCH, DELETE
 
----
+<br/>
+<br/>
 
 ### Create a user
 
