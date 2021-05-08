@@ -5,8 +5,8 @@ const dotenv = require("dotenv").config();
 const envFound = dotenv;
 if (envFound.error) {
   // This error should crash whole process
-
-  throw new Error("⚠️  Couldn't find .env file  ⚠️");
+  console.log(envFound.error);
+  throw new Error(`⚠️  Couldn't find .env file  ⚠️, ${envFound.error}`);
 }
 
 const config = {
