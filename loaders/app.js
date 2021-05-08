@@ -31,8 +31,10 @@ app.use(logger("dev"));
 app.use(express.static("public"));
 app.use(express.json({ limit: "10kb" }));
 
+// load db
 db();
-// load api routes here
+
+// load api routes
 app.use("/api", AppRoutes);
 
 // /// error handlers
