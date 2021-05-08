@@ -62,7 +62,7 @@ npm run start
 
 Example:
 
-Body urlencoded
+<strong>Body</strong> urlencoded
 
 | Key       | Value               | Required |
 | --------- | ------------------- | -------- |
@@ -82,7 +82,7 @@ JSON format
 }
 ```
 
-Response body example:
+Response example:
 
 ```
 {
