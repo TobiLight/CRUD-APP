@@ -56,12 +56,11 @@ npm run start
 
 ### Create a user
 
-`POST https://x-crud-app.herokuapp.com/create/user`
+`POST https://x-crud-app.herokuapp.com/api/create/user`
 
-##### Request body key/value pair to create a user
+#### Request body key/value pair to create a user
 
 Example:
-
 <strong>Body</strong> urlencoded
 
 | Key       | Value               | Required |
@@ -95,6 +94,44 @@ Response example:
             "country": "Nigeria",
             "__v": 0
         }
+    }
+}
+```
+
+<br/>
+
+### Get a user
+
+`GET https://x-crud-app.herokuapp.com/api/user`
+
+#### Request body key/value pair to create a user
+
+Example:
+<strong>Body</strong> urlencoded
+
+| Key   | Value               | Required |
+| ----- | ------------------- | -------- |
+| email | johndoe@example.com | Yes      |
+
+JSON format
+
+```
+{
+    "email": "johndoe@example.com",
+}
+```
+
+Response example:
+
+```
+{
+    "message": "✅ User found",
+    "data": {
+        "_id": "60965b9e2e30e0366874593e",
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "country": "Nigeria",
+        "__v": 0
     }
 }
 ```
