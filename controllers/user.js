@@ -62,7 +62,7 @@ exports.getUsers = async (req, res, next) => {
   res.status(200).json({
     message: `✅ ${users.length} users found`,
     data: {
-      users: { users },
+      users,
     },
   });
 };
