@@ -26,8 +26,8 @@
     "type": "git",
     "url": "git+https://github.com/TobiLight/CRUD-APP.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["crud", "crud app", "basic crud app"],
+  "author": "0x",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TobiLight/CRUD-APP/issues"
