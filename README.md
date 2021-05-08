@@ -142,7 +142,7 @@ Response example:
 
 `GET https://x-crud-app.herokuapp.com/api/users`
 
-Responsse example:
+Response example:
 
 ```
 {
