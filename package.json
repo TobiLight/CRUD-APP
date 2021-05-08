@@ -8,9 +8,6 @@
     "cors": "^2.8.5",
     "dotenv": "^9.0.0",
     "express": "^4.17.1",
-    "express-rate-limit": "^5.2.6",
-    "http-errors": "^1.8.0",
-    "method-override": "^3.0.0",
     "mongoose": "^5.12.7",
     "morgan": "^1.10.0"
   },
@@ -26,7 +23,11 @@
     "type": "git",
     "url": "git+https://github.com/TobiLight/CRUD-APP.git"
   },
-  "keywords": ["crud", "crud app", "basic crud app"],
+  "keywords": [
+    "crud",
+    "crud app",
+    "basic crud app"
+  ],
   "author": "0x",
   "license": "ISC",
   "bugs": {
