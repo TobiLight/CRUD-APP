@@ -20,7 +20,7 @@ Install project dependencies using
 npm i
 ```
 
-### Run the app
+### Run the app 🔃
 
 Run the app in development mode using
 
@@ -33,3 +33,21 @@ Run the app in production mode using
 ```
 npm run start
 ```
+
+## Application endpoints
+
+### HTTP STATUS CODES
+
+| Status code | Description           |
+| ----------- | --------------------- |
+| 200         | Ok                    |
+| 201         | Created               |
+| 400         | Bad request           |
+| 404         | Not found             |
+| 500         | Internal server error |
+
+### Create a user
+
+Create a new user
+
+> POST https://x-crud-app.herokuapp.com/create/user
