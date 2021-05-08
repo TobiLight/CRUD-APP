@@ -33,7 +33,7 @@ app.use(express.json({ limit: "10kb" }));
 
 db();
 // load api routes here
-app.use(AppRoutes);
+app.use("/api", AppRoutes);
 
 // /// error handlers
 // app.use((err, req, res, next) => {
