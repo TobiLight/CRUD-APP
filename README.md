@@ -50,7 +50,7 @@ npm run start
 
 > GET, POST, PATCH, DELETE
 
--
+---
 
 ### Create a user
 
