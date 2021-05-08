@@ -16,7 +16,6 @@ const UserSchema = new Schema({
   },
   country: {
     type: String,
-    required: [true, "Your country is required"],
   },
 });
 
