@@ -135,3 +135,38 @@ Response example:
     }
 }
 ```
+
+### Get users
+
+`GET https://x-crud-app.herokuapp.com/api/users`
+
+Response example:
+
+```
+{
+    "message": "✅ 3 users found",
+    "data": [
+        {
+            "_id": "60964f32a37a2c2094c0f6f2",
+            "name": "John Doe",
+            "email": "johndoe@example.com",
+            "__v": 0,
+            "country": "Nigeria"
+        },
+        {
+            "_id": "609654183610650390608b4f",
+            "name": "John Bull",
+            "email": "johnbull@example.com",
+            "country": "Nigeria",
+            "__v": 0
+        },
+        {
+            "_id": "6096541d3610650390608b50",
+            "name": "John Smith",
+            "email": "johnsmith@example.com",
+            "country": "Nigeria",
+            "__v": 0
+        },
+    ]
+}
+```
