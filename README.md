@@ -106,7 +106,7 @@ Response example:
 
 #### Request body key/value pair to create a user
 
-Example:
+Example:\
 <strong>Body</strong> urlencoded
 
 | Key   | Value               | Required |
