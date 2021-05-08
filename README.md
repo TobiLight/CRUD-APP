@@ -62,6 +62,8 @@ npm run start
 
 Example:
 
+Body urlencoded
+
 | Key       | Value               | Required |
 | --------- | ------------------- | -------- |
 | firstname | John                | Yes      |
@@ -77,5 +79,22 @@ JSON format
     "lastname": "Doe",
     "email": "johndoe@example.com",
     "country": "Nigeria"
+}
+```
+
+Response body example:
+
+```
+{
+    "message": "✅ User created successfully.",
+    "data": {
+        "user": {
+            "_id": "60965b9e2e30e0366874593e",
+            "name": "John Doe",
+            "email": "johndoe@example.com",
+            "country": "Nigeria",
+            "__v": 0
+        }
+    }
 }
 ```
