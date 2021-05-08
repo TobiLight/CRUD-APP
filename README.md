@@ -19,3 +19,17 @@ Install project dependencies using
 ```
 npm i
 ```
+
+### Run the app
+
+Run the app in development mode using
+
+```
+npm run dev
+```
+
+Run the app in production mode using
+
+```
+npm run start
+```
