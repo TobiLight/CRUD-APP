@@ -50,8 +50,8 @@ npm run start
 
 > GET, POST, PATCH, DELETE
 
-### Create a user
+-
 
-Create a new user
+### Create a user
 
 > POST https://x-crud-app.herokuapp.com/create/user
