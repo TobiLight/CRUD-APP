@@ -53,8 +53,7 @@ npm run start
 > GET, POST, PATCH, DELETE
 
 <br/>
-<br/>
 
 ### Create a user
 
-> POST https://x-crud-app.herokuapp.com/create/user
+`POST https://x-crud-app.herokuapp.com/create/user`
