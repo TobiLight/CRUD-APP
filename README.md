@@ -63,12 +63,12 @@ npm run start
 Example:
 <strong>Body</strong> urlencoded
 
-| Key       | Value               | Required |
-| --------- | ------------------- | -------- |
-| firstname | John                | Yes      |
-| lastname  | Doe                 | Yes      |
-| email     | johndoe@example.com | Yes      |
-| country   | Nigeria             | Yes      |
+| Key       | Value               | Required | Description          |
+| --------- | ------------------- | -------- | -------------------- |
+| firstname | John                | Yes      | User's first name    |
+| lastname  | Doe                 | Yes      | User's last name     |
+| email     | johndoe@example.com | Yes      | User's email address |
+| country   | Nigeria             | Yes      | User's country       |
 
 JSON format
 
@@ -109,9 +109,9 @@ Response example:
 Example:\
 <strong>Body</strong> urlencoded
 
-| Key   | Value               | Required |
-| ----- | ------------------- | -------- |
-| email | johndoe@example.com | Yes      |
+| Key   | Value               | Required | Description          |
+| ----- | ------------------- | -------- | -------------------- |
+| email | johndoe@example.com | Yes      | User's email address |
 
 JSON format
 
@@ -186,12 +186,12 @@ Response example:
 Example:
 <strong>Body</strong> urlencoded
 
-| Key       | Value               | Required |
-| --------- | ------------------- | -------- |
-| email     | johndoe@example.com | Yes      |
-| firstname | John                | No       |
-| lastname  | Thebaptist          | No       |
-| country   | Nigeria             | No       |
+| Key       | Value               | Required | Description          |
+| --------- | ------------------- | -------- | -------------------- |
+| email     | johndoe@example.com | Yes      | User's email address |
+| firstname | John                | No       | User's first name    |
+| lastname  | Doe                 | No       | User's last name     |
+| country   | Nigeria             | No       | User's country       |
 
 JSON format
 
@@ -232,9 +232,9 @@ Response example:
 Example:
 <strong>Body</strong> urlencoded
 
-| Key   | Value               | Required |
-| ----- | ------------------- | -------- |
-| email | johndoe@example.com | Yes      |
+| Key   | Value               | Required | Description          |
+| ----- | ------------------- | -------- | -------------------- |
+| email | johndoe@example.com | Yes      | User's email address |
 
 JSON format
 

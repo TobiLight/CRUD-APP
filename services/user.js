@@ -1,5 +1,9 @@
 const User = require("../models/User");
 
+/**
+ *
+ */
+
 class App {
   constructor() {
     this.userModel = User;
