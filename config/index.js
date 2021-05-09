@@ -1,3 +1,7 @@
+/**
+ * @type {Object}
+ * Environment configuration variables
+ */
 const config = {
   // PORT
   port: parseInt(process.env.PORT, 10),

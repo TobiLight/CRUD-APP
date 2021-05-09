@@ -1,5 +1,13 @@
 const App = require("../services/user");
 
+/**
+ *
+ * @param {String} firstname The user's first name.
+ * @param {String} lastname The user's last name.
+ * @param {String} email The user's email.
+ * @param {String} country The user's country.
+ * @returns {Object} newUser The newly created user.
+ */
 exports.addUser = async (req, res, next) => {
   const { firstname, lastname, email, country } = req.body;
 
@@ -32,6 +40,11 @@ exports.addUser = async (req, res, next) => {
   }
 };
 
+/**
+ *
+ * @param {String} email The user's email address.
+ * @returns {Object} user The user's record info.
+ */
 exports.getUser = async (req, res, next) => {
   const { email } = req.body;
   if (!email) {
@@ -55,6 +68,10 @@ exports.getUser = async (req, res, next) => {
   });
 };
 
+/**
+ *
+ * @returns {Array} users All user's record info.
+ */
 exports.getUsers = async (req, res, next) => {
   const app = new App();
   const users = await app.GetUsers();
@@ -67,6 +84,14 @@ exports.getUsers = async (req, res, next) => {
   });
 };
 
+/**
+ *
+ * @param {String} firstname The user's first name.
+ * @param {String} lastname The user's last name.
+ * @param {String} email The user's email address.
+ * @param {String} country The user's countr.
+ * @returns {Object} user The user's updated record info.
+ */
 exports.updateUser = async (req, res, next) => {
   const { firstname, lastname, email, country } = req.body;
 
@@ -99,6 +124,10 @@ exports.updateUser = async (req, res, next) => {
   }
 };
 
+/**
+ *
+ * @param {String} email The user's email address.
+ */
 exports.deleteUser = async (req, res, next) => {
   const { email } = req.body;
   if (!email) {
