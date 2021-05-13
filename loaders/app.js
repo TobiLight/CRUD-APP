@@ -33,6 +33,10 @@ db();
 // load api routes
 app.use("/api", AppRoutes);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6fe99c214ca8eb3dd381e65f99ea9d48b0ee3e4e
 app.get("*", (req, res) => {
   res.status(404).json("This route or page doesn't exist yet");
 });
